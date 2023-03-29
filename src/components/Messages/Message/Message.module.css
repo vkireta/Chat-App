@@ -1,0 +1,89 @@
+.message {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 0px;
+  padding-bottom: 8px;
+}
+
+.message_sent {
+  text-align: right;
+  flex-flow: row-reverse nowrap;
+}
+
+.message_info {
+  display: flex;
+  margin: 8px auto;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  font-size: var(--font-size);
+  border-radius: 12px;
+}
+.message_info div {
+  flex-flow: row nowrap;
+  font-size: var(--font-size);
+  border-radius: 12px;
+  background-color: var(--message-info);
+  color: var(--text-light);
+  padding: 8px;
+}
+
+.message img {
+  height: 32px;
+  margin-right: 8px;
+}
+
+.message_sent img {
+  height: 32px;
+  margin-left: 8px;
+}
+
+.username {
+  font-size: var(--font-size);
+  text-align: left;
+  color: var(--text);
+  font-weight: bolder;
+  padding-bottom: 4px;
+}
+
+.username_sent {
+  text-align: right;
+}
+
+.text {
+  font-size: 16px;
+  text-align: left;
+  color: var(--text-light);
+  max-width: 320px;
+  word-wrap: break-word;
+  background-color: var(--message2);
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.text_sent {
+  background-color: var(--message1);
+}
+
+.timestamp {
+  font-size: 10px;
+  text-align: right;
+  color: var(--message-info);
+  padding-top: 2px;
+}
+
+.timestamp_sent {
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .message img {
+    height: 3.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .message_sent img {
+    height: 56px;
+    margin-left: 8px;
+  }
+}

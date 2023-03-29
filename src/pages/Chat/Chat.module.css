@@ -1,0 +1,39 @@
+.chat {
+  margin: 16px auto;
+  width: 90%;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 68px;
+}
+
+.messages {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+@media screen and (max-width: 600px) {
+  .chat {
+    width: 100%;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .messages {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .messages {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  .messages {
+    width: 75%;
+  }
+}

@@ -1,0 +1,15 @@
+button {
+  width: 170px;
+  height: 40px;
+  text-align: center;
+  border-radius: 12px;
+  border: 1px solid var(--main);
+  color: var(--main);
+  font-size: var(--font-size);
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #21978B;
+  color: white;
+}
+
+

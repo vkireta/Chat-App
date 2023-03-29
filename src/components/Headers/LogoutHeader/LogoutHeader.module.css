@@ -1,0 +1,22 @@
+.logout_button {
+  border: none;
+  color: white;
+  width: 120px;
+  height: 32px;
+  margin-left: 920px;
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .logout_header {
+    margin-top: -84px;
+    margin-bottom: 8px;
+    height: 136px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+  }
+
+  .logout_header div div {
+    display: none;
+  }
+}

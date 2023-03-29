@@ -1,0 +1,18 @@
+.avatar {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-bottom: 8px;
+  height: 128px;
+}
+
+.avatar img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.avatar div {
+  font-size: 12px;
+  color: var(--text);
+}

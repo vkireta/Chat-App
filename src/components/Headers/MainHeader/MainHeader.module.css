@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    position: absolute;
+    width: 100px;
+    height: 43px;
+    top: 0px;
+    line-height: 59px;    
+}
+
+.header img {
+    position: absolute;
+    width: 23.9px;
+    height: 23.9px;
+    left: 550px;
+    top: 32px;
+    transform: rotate(-30.78deg);
+}
+
+
